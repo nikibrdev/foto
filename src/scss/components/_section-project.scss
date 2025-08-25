@@ -1,0 +1,27 @@
+@use 'mixins' as *;
+
+.section-project {
+  margin-bottom: 150px;
+}
+
+.section-project__title {
+  margin-bottom: 50px;
+}
+
+.section-project__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+
+  @include small-tablet {
+    flex-direction: column-reverse;
+  }
+}
+
+.section-project__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+

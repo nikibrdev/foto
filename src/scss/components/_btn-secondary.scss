@@ -1,0 +1,60 @@
+@use 'mixins' as *;
+
+.btn-secondary {
+  position: relative;
+  display: inline-block;
+  border: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  line-height: 1;
+  color: var(--primary-color);
+  background-color: transparent;
+
+  @include hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+  }
+
+  &--white {
+    position: relative;
+    display: inline-block;
+    border: 1px solid var(--white-color);
+    padding: 16px 20px;
+    color: var(--white-color);
+
+    @include hover {
+      color: var(--primary-color);
+      background-color: var(--white-color);
+    }
+  }
+}
+
+.btn-secondary__inner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.btn-secondary__default,
+.btn-secondary__hover {
+  transition: all 0.3s ease;
+}
+
+.btn-secondary__hover {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.btn-secondary:hover .btn-secondary__default {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+}
+
+.btn-secondary:hover .btn-secondary__hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-100%);
+}

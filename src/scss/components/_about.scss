@@ -1,0 +1,130 @@
+@use 'mixins' as *;
+
+.about {
+  position: relative;
+  margin-bottom: 150px;
+  height: 300vh;
+}
+
+.about__fixed {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.about__inner {
+  display: flex;
+  align-items: center;
+  gap: 90px 100px;
+
+  @include tablet {
+    flex-direction: column-reverse;
+  }
+
+  @include mobile {
+    gap: 0;
+  }
+}
+
+.about__info {
+  max-width: 849px;
+
+  @media (width <=1740px) {
+    max-width: 560px;
+  }
+
+  @include tablet {
+    height: 40vh;
+    max-width: 1000px;
+  }
+}
+
+.about__title {
+  @include fluid-text (40, 20);
+
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-transform: none;
+
+  @include tablet {
+    margin-bottom: 20px;
+  }
+
+}
+
+.about__text {
+  margin-bottom: 50px;
+
+  @include tablet {
+    margin-bottom: 20px;
+  }
+
+}
+
+.about__link {
+  max-width: 410px;
+
+  @include mobile {
+    max-width: 600px;
+  }
+}
+
+.about__images {
+  position: relative;
+  width: 851px;
+  height: 779px;
+
+  @include tablet {
+    height: 60vh;
+  }
+}
+
+
+.about__img-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 6;
+  width: 272px;
+  height: 250px;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+
+  @include mobile {
+    overflow: hidden;
+    width: 172px;
+    height: 150px;
+  }
+}
+
+.about__img-wrap:nth-child(1) {
+  z-index: 6;
+  transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+}
+
+.about__img-wrap:nth-child(2) {
+  z-index: 5;
+  transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+}
+
+.about__img-wrap:nth-child(3) {
+  z-index: 4;
+  transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+}
+
+.about__img-wrap:nth-child(4) {
+  z-index: 3;
+  transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+}
+
+.about__img-wrap:nth-child(5) {
+  z-index: 2;
+  transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+}
+
+.about__img-wrap:nth-child(6) {
+  z-index: 1;
+  transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+}

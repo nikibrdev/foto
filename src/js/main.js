@@ -1,0 +1,10 @@
+import './components/burger.js';
+import './components/slider.js';
+import './components/about.js';
+import './components/reviews-animation.js';
+import './components/catalog-filter.js';
+import './components/valid-form.js';
+import './components/modal-project.js';
+import './components/more-slider.js';
+import './components/title-animation.js';
+import './components/footer-height.js';

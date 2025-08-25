@@ -1,0 +1,18 @@
+:root {
+  // base
+  --font-family: "IBM Plex Sans", sans-serif;
+  --second-family: "Manrope", sans-serif;
+  --content-width: 1728px;
+  --content-fluid-width: 1920px;
+  --container-offset: 16px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(var(--content-fluid-width) + (var(--container-offset) * 2));
+  --primary-color:  #1A1A1A;
+  --secondary-color:  #888;
+  --background-color:  #f0efed;
+  --green-color: #3AEC49;
+  --grey-color:  #f5f4f2;
+  --grey-light-color: #E4E3E3;
+  --white-color: #fff;
+  --transition-duration: 0.2s;
+}

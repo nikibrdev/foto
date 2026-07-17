@@ -12,6 +12,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $sf_footer_heading = get_theme_mod( 'sf_footer_heading', get_bloginfo( 'name' ) );
 $sf_footer_image    = get_theme_mod( 'sf_footer_image', '' );
+/* translators: %s: current year, replaced automatically */
+$sf_footer_copyright = get_theme_mod( 'sf_footer_copyright', sprintf( __( '© %s. All rights reserved.', 'studio-frame' ), '[year]' ) );
+$sf_footer_copyright = str_replace( '[year]', gmdate( 'Y' ), $sf_footer_copyright );
 ?>
 	</main>
 	<footer class="footer">
@@ -25,6 +28,9 @@ $sf_footer_image    = get_theme_mod( 'sf_footer_image', '' );
 				<?php endif; ?>
 			</div>
 			<?php get_template_part( 'template-parts/global/footer-nav' ); ?>
+			<?php if ( $sf_footer_copyright ) : ?>
+				<p class="footer__copyright"><?php echo esc_html( $sf_footer_copyright ); ?></p>
+			<?php endif; ?>
 		</div>
 	</footer>
 </div>

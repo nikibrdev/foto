@@ -2639,6 +2639,14 @@ h3 {
   width: 100%;
 }
 
+.footer__copyright {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 13px;
+  opacity: 0.6;
+}
+
 .sf-page,
 .sf-blank-page,
 .sf-search-results,
@@ -2701,4 +2709,38 @@ h3 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.wp-block-button.is-style-sf-btn-main .wp-block-button__link {
+  border-radius: 0;
+  border-top: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  background-color: transparent;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.wp-block-button.is-style-sf-btn-main .wp-block-button__link:hover {
+  opacity: 0.6;
+}
+
+.wp-block-button.is-style-sf-btn-secondary .wp-block-button__link {
+  border-radius: 0;
+  border: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  color: var(--primary-color);
+  background-color: transparent;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.wp-block-button.is-style-sf-btn-secondary .wp-block-button__link:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.wp-block-group.is-style-sf-panel {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: var(--grey-color);
 }/*# sourceMappingURL=style.css.map */

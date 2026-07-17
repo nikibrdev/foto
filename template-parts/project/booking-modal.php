@@ -22,15 +22,20 @@ $sf_post_id = isset( $args['post_id'] ) ? absint( $args['post_id'] ) : get_the_I
 				<div class="form-info">
 					<p class="form-info__text">
 						<?php
-						$sf_privacy_url = get_privacy_policy_url();
-						if ( $sf_privacy_url ) {
-							printf(
-								/* translators: %s: link to the site's Privacy Policy page */
-								esc_html__( 'By submitting this form you agree to the %s.', 'studio-frame' ),
-								'<a class="form-info__link" href="' . esc_url( $sf_privacy_url ) . '">' . esc_html__( 'Privacy Policy', 'studio-frame' ) . '</a>' // phpcs:ignore -- link markup intentionally passed as translatable %s.
-							);
+						$sf_custom_notice = get_theme_mod( 'sf_contact_form_notice', '' );
+						if ( $sf_custom_notice ) {
+							echo wp_kses_post( $sf_custom_notice );
 						} else {
-							esc_html_e( 'By submitting this form you agree to the processing of your personal data.', 'studio-frame' );
+							$sf_privacy_url = get_privacy_policy_url();
+							if ( $sf_privacy_url ) {
+								printf(
+									/* translators: %s: link to the site's Privacy Policy page */
+									esc_html__( 'By submitting this form you agree to the %s.', 'studio-frame' ),
+									'<a class="form-info__link" href="' . esc_url( $sf_privacy_url ) . '">' . esc_html__( 'Privacy Policy', 'studio-frame' ) . '</a>' // phpcs:ignore -- link markup intentionally passed as translatable %s.
+								);
+							} else {
+								esc_html_e( 'By submitting this form you agree to the processing of your personal data.', 'studio-frame' );
+							}
 						}
 						?>
 					</p>

@@ -9,3 +9,4 @@ legacy-verstka/package-lock.json
 # theme on purpose (inc/cmb2/vendor/) so buyers don't need a build step.
 /vendor/
 !/inc/cmb2/vendor/
+__pycache__/

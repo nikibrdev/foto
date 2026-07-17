@@ -1,0 +1,56 @@
+Studio Frame WordPress Theme
+Copyright (C) 2026 Studio Frame
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+The full text of the GPLv2 is available at:
+https://www.gnu.org/licenses/gpl-2.0.html
+
+--------------------------------------------------------------------------
+
+This theme is built on WordPress and, as a derivative work, is licensed
+under the GPL as a whole. PHP, CSS and JS specific to this theme (all
+files outside the "Bundled third-party code" list below) are original
+work released under GPLv2-or-later.
+
+Bundled third-party code
+-------------------------
+
+- CMB2 (inc/cmb2/vendor/CMB2/) — © the CMB2 team, GPL-2.0-or-later.
+  https://github.com/CMB2/CMB2
+
+- Swiper (assets/scss/vendor/swiper-bundle.min.css, bundled into
+  assets/js/main.js) — © Vladimir Kharlampidi, MIT License.
+  https://swiperjs.com
+
+- GraphModal (bundled into assets/js/main.js, styles in
+  assets/scss/vendor/graph-modal.min.css) — MIT License.
+  https://github.com/nikita-team/graph-modal
+
+- normalize.css (assets/scss/vendor/normalize.css) — © Nicolas Gallagher
+  and Jonathan Neal, MIT License. https://necolas.github.io/normalize.css/
+
+- GSAP + ScrollTrigger (assets/js/vendor/) — © GreenSock. GSAP's licensing
+  terms have changed over time (most recently towards a fully free/MIT
+  model); please verify the terms current at https://gsap.com/licensing/
+  for your use case before distributing this theme commercially, and
+  remove assets/js/vendor/ + the About page animation if in doubt.
+
+- IBM Plex Sans — © IBM Corp, SIL Open Font License 1.1.
+- Manrope — © the Manrope Project Authors, SIL Open Font License 1.1.
+
+Images and demo content shipped with this theme (if any) are for
+demonstration purposes only and should be replaced with your own
+properly-licensed photography before publishing a live site.

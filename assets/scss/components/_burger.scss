@@ -1,0 +1,9 @@
+@use 'mixins' as *;
+
+.burger{
+  @include burger;
+
+  @media (width >= 768px) {
+    display: none;
+  }
+}

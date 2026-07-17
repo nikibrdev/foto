@@ -1,0 +1,39 @@
+@use 'mixins' as *;
+
+.graph-modal {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.graph-modal__container {
+  border-radius: 0;
+  padding: 60px;
+  background-color: var(--grey-color);
+
+  @include mobile {
+    padding: 20px;
+  }
+}
+
+.graph-modal__close {
+  right: 60px;
+  top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--primary-color);
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/icons/close-black.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include mobile {
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.graph-modal__close:hover{
+  background-image: url('../img/icons/close-white.svg');
+  background-color: var(--primary-color);
+}

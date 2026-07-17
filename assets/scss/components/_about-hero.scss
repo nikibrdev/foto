@@ -1,0 +1,108 @@
+@use 'mixins' as *;
+
+.about-hero {
+  margin-bottom: 150px;
+}
+
+.about-hero__title {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 200px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: font-size 0.3s ease-out;
+  will-change: font-size;
+
+  @include tablet {
+    @include fluid-text (200, 50);
+
+  }
+}
+
+.about-hero__img-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -350px;
+  will-change: transform;
+
+  @include tablet {
+    margin-bottom: 0;
+  }
+}
+
+.about-hero__top {
+  margin-bottom: 150px;
+}
+
+.about-hero__subtitle {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about-hero__text {
+  margin: 0 auto;
+  max-width: 848px;
+  text-align: center;
+}
+
+.about-hero__bottom-title {
+  margin-bottom: 10px;
+  max-width: 848px;
+
+  @include high-desktop {
+    margin-bottom: 30px;
+  }
+}
+
+.about-hero__list {
+  counter-reset: num;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 30px;
+
+  @include high-desktop {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+
+}
+
+.about-hero__item {
+  position: relative;
+  max-width: 360px;
+
+  @include small-tablet {
+    max-width: 800px;
+  }
+}
+
+.about-hero__item::before {
+  counter-increment: num;
+  content: '(' counter(num) ')';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about-hero__item-title {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about-hero__item-text {
+  @include fluid-text (16, 14);
+
+  color: var(--secondary-color);
+}

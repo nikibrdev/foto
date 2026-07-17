@@ -1,2 +1,12 @@
 /node_modules
 package-lock.json
+legacy-verstka/node_modules
+legacy-verstka/package-lock.json
+.DS_Store
+*.log
+
+# Composer/PHP dependency dirs, EXCEPT the CMB2 library bundled with the
+# theme on purpose (inc/cmb2/vendor/) so buyers don't need a build step.
+/vendor/
+!/inc/cmb2/vendor/
+__pycache__/

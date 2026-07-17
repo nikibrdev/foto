@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ruleset name="Studio Frame">
+	<description>Coding standard for the Studio Frame WordPress theme.</description>
+
+	<file>.</file>
+
+	<exclude-pattern>*/legacy-verstka/*</exclude-pattern>
+	<exclude-pattern>*/inc/cmb2/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/scripts/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName"/>
+	</rule>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="studio-frame"/>
+			</property>
+		</properties>
+	</rule>
+
+	<config name="minimum_supported_wp_version" value="6.4"/>
+	<config name="testVersion" value="7.4-"/>
+</ruleset>

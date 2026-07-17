@@ -1,0 +1,32 @@
+@use 'mixins' as *;
+
+.catalog {
+  margin-bottom: 150px;
+}
+
+.catalog__title {
+  margin-bottom: 50px;
+}
+
+.catalog__btns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.catalog__btn {
+  border: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  color: var(--primary-color);
+
+  @include hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+  }
+}
+
+.catalog__btn.active {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}

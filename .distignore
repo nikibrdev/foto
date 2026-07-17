@@ -1,0 +1,24 @@
+# Files excluded when packaging the customer-facing theme .zip.
+# The theme itself needs none of these to run — they're maintainer-only
+# tooling and the original design reference.
+
+.git
+.gitignore
+.distignore
+.editorconfig
+.github
+
+legacy-verstka
+scripts
+
+node_modules
+package.json
+package-lock.json
+
+phpcs.xml.dist
+composer.json
+composer.lock
+
+*.map
+.DS_Store
+Thumbs.db

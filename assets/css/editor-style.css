@@ -1,0 +1,55 @@
+/*
+ * Minimal block-editor preview styles: just typography and colour tokens,
+ * so Page/CPT content in Gutenberg roughly matches the front end without
+ * loading the full front-end stylesheet (which assumes the theme's fixed
+ * header/footer chrome) inside the editor iframe.
+ */
+
+@font-face {
+	font-family: "IBM Plex Sans";
+	src: url("../fonts/IBMPlexSans-Regular.woff2") format("woff2"), url("../fonts/IBMPlexSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "IBM Plex Sans";
+	src: url("../fonts/IBMPlexSans-SemiBold.woff2") format("woff2"), url("../fonts/IBMPlexSans-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("../fonts/Manrope-Regular.woff2") format("woff2"), url("../fonts/Manrope-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("../fonts/Manrope-SemiBold.woff2") format("woff2"), url("../fonts/Manrope-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+.editor-styles-wrapper {
+	--primary-color: #1a1a1a;
+	--secondary-color: #888;
+	--background-color: #f0efed;
+	--green-color: #3aec49;
+	font-family: "IBM Plex Sans", sans-serif;
+	color: var(--primary-color);
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4 {
+	font-family: "Manrope", sans-serif;
+	font-weight: 600;
+}

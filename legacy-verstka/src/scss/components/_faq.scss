@@ -1,0 +1,53 @@
+@use 'mixins' as *;
+
+.faq {
+  padding-bottom: 150px;
+}
+
+.faq__title {
+  margin-bottom: 50px;
+  max-width: 1040px;
+}
+
+.faq__list {
+  counter-reset: num;
+  list-style-type: none;
+}
+
+.faq__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-top: 1px solid var(--primary-color);
+  padding: 24px 20px;
+  gap: 0 50px;
+
+  @include small-tablet {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+.faq__item::before {
+  counter-increment: num;
+  content: '(' counter(num) ')';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  display: inline-block;
+  transform: translateY(-50%);
+
+  @include small-tablet {
+    top: 10px;
+  }
+}
+
+.faq__item-question {
+  flex-basis: 33%;
+  font-weight: 600;
+}
+
+.faq__item-answer {
+  flex-basis: 33%;
+}

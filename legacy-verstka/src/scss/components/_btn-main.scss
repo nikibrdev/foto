@@ -1,0 +1,92 @@
+@use 'mixins' as *;
+
+.btn-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: transparent;
+
+  &--white {
+    border-top: 1px solid var(--white-color);
+    color: var(--white-color);
+  }
+}
+
+.btn-main__inner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.btn-main__inner::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/icons/arrow-up-right-black.svg');
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-main__inner::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/icons/arrow-up-right-black.svg');
+  opacity: 1;
+  transform: translate(-100%, 100%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-main.btn-main--white .btn-main__inner::after,
+.btn-main.btn-main--white .btn-main__inner::before{
+    background-image: url('../img/icons/arrow-up-right-white.svg');
+}
+
+
+.btn-main__default,
+.btn-main__hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-main__default {
+  display: inline-block;
+}
+
+.btn-main__hover {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: inline-block;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.btn-main:hover .btn-main__default {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+}
+
+.btn-main:hover .btn-main__hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-100%);
+}
+
+.btn-main:hover .btn-main__inner::after {
+  transform: translate(100%, -100%);
+}
+
+.btn-main:hover .btn-main__inner::before {
+  visibility: visible;
+  transform: translate(0, 0);
+}

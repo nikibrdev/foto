@@ -1,0 +1,43 @@
+@use 'mixins' as *;
+
+.logo__text {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  padding: 8px 0;
+  width: 100%;
+  background-color: rgba(240, 239, 237, 0.7);
+  transition: transform var(--transition-duration) ease-in-out;
+  backdrop-filter: blur(20px);
+
+
+  &--hidden {
+    transform: translateY(-100%);
+  }
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 40px;
+
+  @include mobile {
+    gap: 0 10px;
+  }
+}
+
+.header__link {
+  display: inline-block;
+  line-height: 1;
+}

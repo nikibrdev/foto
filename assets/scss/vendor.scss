@@ -1,0 +1,7 @@
+@use "./vendor/normalize";
+
+// стили для модального окна (библиотека graph-modal, вендорится локально)
+@use "./vendor/graph-modal.min";
+
+// стили для свайпера (библиотека Swiper, вендорится локально)
+@use "./vendor/swiper-bundle.min";

@@ -1,0 +1,208 @@
+@use 'mixins' as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  @include tablet {
+    gap: 10px;
+  }
+}
+
+// Honeypot spam trap: hidden from sighted users and keyboard/tab order,
+// but still present in the DOM for bots that fill in every field blindly.
+.form__item--hp {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.form__item-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  .form__item {
+    flex-basis: 50%;
+  }
+
+  @include high-desktop {
+    flex-direction: column;
+  }
+
+}
+
+.form__input {
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 16px 20px;
+  width: 100%;
+  background-color: var(--background-color);
+  cursor: pointer;
+
+  &--textarea {
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0;
+    padding: 16px 20px;
+    min-height: 120px;
+    resize: none;
+  }
+
+  @include hover {
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+}
+
+.form__input::placeholder {
+  color: var(--secondary-color);
+}
+
+.form__input:hover::placeholder {
+  color: var(--primary-color);
+}
+
+.form__input:focus-visible {
+  outline: none;
+  border-bottom: 1px solid var(--primary-color);
+
+}
+
+.form__input:focus-visible::placeholder {
+  position: relative;
+  top: -18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--secondary-color);
+  transition: all var(--transition-duration) ease;
+}
+
+.form__error {
+  @include fluid-text (14, 12);
+
+  display: none;
+  margin-left: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--primary-color);
+
+  &--checkbox {
+    display: block;
+    margin-left: 34px;
+  }
+}
+
+.custom-checkbox {
+  @include custom-checkbox;
+}
+
+.custom-checkbox__content {
+  @include fluid-text (16, 12);
+}
+
+.form__btn {
+  margin-top: 50px;
+}
+
+.form-wrapper {
+  .form__input{
+    background-color: var(--grey-color);
+  }
+
+  .form__btn {
+    margin-top: 60px;
+  }
+}
+
+.form-title {
+  margin-bottom: 60px;
+
+  @include tablet {
+    margin-bottom: 30px;
+  }
+
+  @include mobile {
+    margin-bottom: 20px;
+  }
+}
+
+.form-info {
+  margin-top: 60px;
+}
+
+.form-info__text {
+  font-size: 16px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.form-info__link:hover {
+  color: var(--primary-color);
+}
+
+.form-modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 1001;
+  border: 1px solid #252324;
+  padding: 60px 50px;
+  width: 408px;
+  height: 219px;
+  background: #f5f4f2;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.form-modal__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.form-modal__content-title {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.form-modal__content-text {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.form-modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}

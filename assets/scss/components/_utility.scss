@@ -1,0 +1,98 @@
+@use 'mixins' as *;
+
+// Generic, lightly-styled fallback templates: default Page template,
+// blog index/search results, 404, comments. These sit outside the
+// portfolio-specific design system but should still look intentional.
+
+.sf-page,
+.sf-blank-page,
+.sf-search-results,
+.sf-post-list {
+  padding: 160px 0 100px;
+
+  @include tablet {
+    padding: 120px 0 60px;
+  }
+}
+
+.sf-page__title,
+.sf-blank-page__title,
+.sf-search-results__title {
+  margin-bottom: 30px;
+  font-family: var(--second-family);
+  font-weight: 600;
+}
+
+.sf-page__content,
+.sf-blank-page__content {
+  max-width: 800px;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+.sf-post-list__item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--grey-light-color);
+}
+
+.sf-post-list__title {
+  margin-bottom: 10px;
+  font-family: var(--second-family);
+  font-weight: 600;
+}
+
+.sf-comments {
+  padding: 60px 0;
+}
+
+.sf-comments__list {
+  margin: 30px 0;
+  padding-left: 20px;
+}
+
+.sf-404 {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+// Block style variations (inc/blocks/class-block-styles.php) — simplified,
+// static approximations of .btn-main / .btn-secondary for Gutenberg content,
+// since the block editor doesn't render the double-span hover-swap markup.
+.wp-block-button.is-style-sf-btn-main .wp-block-button__link {
+  border-radius: 0;
+  border-top: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.wp-block-button.is-style-sf-btn-secondary .wp-block-button__link {
+  border-radius: 0;
+  border: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+  }
+}
+
+.wp-block-group.is-style-sf-panel {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: var(--grey-color);
+}

@@ -1,0 +1,49 @@
+  @use 'mixins' as *;
+
+  .hero{
+    margin-bottom: 200px;
+    padding-top: 221px;
+
+    @include mobile {
+      padding-top: 150px;
+    }
+  }
+
+  .hero__inner {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: 0 0 80px;
+
+    @include small-tablet {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .hero__subtitle {
+    font-family: var(--second-family);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    @include fluid-text (200, 60);
+  }
+
+  .hero__title {
+    font-size: 30px;
+    text-align: right;
+
+    @include fluid-text (30, 14);
+
+  }
+
+  .hero__link {
+    margin-bottom: 100px;
+    max-width: 410px;
+
+    @include mobile {
+      max-width: 600px;
+    }
+  }

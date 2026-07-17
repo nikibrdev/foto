@@ -1,0 +1,1430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Studio Frame 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<12 || n%100>14)) ? 1 : 2);\n"
+"X-Domain: studio-frame\n"
+
+#: 404.php:17
+msgid "404"
+msgstr "404"
+
+#: 404.php:18
+msgid "This page could not be found."
+msgstr "Эта страница не найдена."
+
+#: 404.php:22 404.php:23
+msgid "Back to home"
+msgstr "На главную"
+
+#: archive-project.php:32 taxonomy-project_category.php:22
+msgid "All projects"
+msgstr "Все проекты"
+
+#: comments.php:24
+#. translators: translators: %s: number of comments
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s комментарий"
+msgstr[1] "%s комментария"
+msgstr[2] "%s комментариев"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: footer.php:16 inc/customizer/controls-footer.php:61
+#. translators: translators: %s: current year, replaced automatically
+msgid "© %s. All rights reserved."
+msgstr "© %s. Все права защищены."
+
+#: header.php:32 header.php:33 template-parts/contact/contact-form.php:77 template-parts/contact/contact-form.php:78
+msgid "Discuss a project"
+msgstr "Обсудить проект"
+
+#: header.php:36
+msgid "Open menu"
+msgstr "Открыть меню"
+
+#: inc/admin/class-admin-notices.php:43
+msgid "Studio Frame is active!"
+msgstr "Тема Studio Frame активна!"
+
+#: inc/admin/class-admin-notices.php:44
+msgid "Head over to the Get Started page for a step-by-step setup checklist and one-click demo content."
+msgstr "Перейдите на страницу «Начало работы» — там пошаговый чек-лист настройки и демо-контент в один клик."
+
+#: inc/admin/class-admin-notices.php:48
+msgid "Dismiss"
+msgstr "Скрыть"
+
+#: inc/admin/class-demo-content.php:123
+msgid "Jane D."
+msgstr "Елена О."
+
+#: inc/admin/class-demo-content.php:124
+msgid "Working with this photographer felt effortless — the whole session had a real story to it, not just a list of poses. I still look back at these photos a year later."
+msgstr "Съёмка была лёгкой и совсем не похожей на позирование по списку — в ней была настоящая история. Я до сих пор пересматриваю эти кадры."
+
+#: inc/admin/class-demo-content.php:127
+msgid "Mark T."
+msgstr "Денис К."
+
+#: inc/admin/class-demo-content.php:128
+msgid "Every photo feels like a still from a film. Relaxed, natural, and genuinely fun to be part of."
+msgstr "Каждая фотография — как стоп-кадр из фильма. Всё было легко, естественно и по-настоящему интересно."
+
+#: inc/admin/class-demo-content.php:131
+msgid "Olivia R."
+msgstr "Ольга М."
+
+#: inc/admin/class-demo-content.php:132
+msgid "I was nervous in front of the camera, but I was put at ease immediately. The final gallery exceeded what I imagined."
+msgstr "Я волновалась перед камерой, но меня сразу расположили к себе. Итоговая галерея превзошла все ожидания."
+
+#: inc/admin/class-demo-content.php:153
+msgid "How do I book a session?"
+msgstr "Как забронировать участие в съёмке или проекте?"
+
+#: inc/admin/class-demo-content.php:154
+msgid "Pick a project on the site or fill in the contact form with a short description of what you have in mind, and I will get back to you to confirm a date."
+msgstr "Выберите проект на сайте или заполните форму в разделе «Контакты» с описанием своей идеи. Я свяжусь с вами, чтобы обсудить детали и подтвердить дату съёмки."
+
+#: inc/admin/class-demo-content.php:157
+msgid "Can I request my own idea or style?"
+msgstr "Можно ли заказать съёмку по собственной идее или стилю?"
+
+#: inc/admin/class-demo-content.php:158
+msgid "Absolutely — I am always happy to work from your concept, or help adapt it to fit the visual style of my portfolio."
+msgstr "Да! Я с удовольствием реализую вашу концепцию или помогу адаптировать её под мой визуальный стиль."
+
+#: inc/admin/class-demo-content.php:161
+msgid "How long does a session take?"
+msgstr "Сколько длится съёмка и как к ней подготовиться?"
+
+#: inc/admin/class-demo-content.php:162
+msgid "Most sessions run 1–3 hours depending on the format. After booking you will get a short guide covering outfits, props and general prep."
+msgstr "Обычно съёмка занимает 1–3 часа, в зависимости от формата. После бронирования вы получите гайд с рекомендациями по одежде, реквизиту и подготовке."
+
+#: inc/admin/class-demo-content.php:165
+msgid "Do I get the unedited photos?"
+msgstr "Выдаёте ли вы исходники или только отретушированные фото?"
+
+#: inc/admin/class-demo-content.php:166
+msgid "The standard package includes a set of fully retouched images. Unedited files can be provided on request — let's discuss it when booking."
+msgstr "В базовый пакет входят отретушированные изображения. Исходники могу предоставить по отдельному запросу — обсудим это при бронировании."
+
+#: inc/admin/class-demo-content.php:169
+msgid "Do you travel for sessions?"
+msgstr "Можно ли провести съёмку в другом городе или на выездной локации?"
+
+#: inc/admin/class-demo-content.php:170
+msgid "Yes — let me know which location you have in mind and we can work out the logistics together."
+msgstr "Да, я открыта к съёмкам вне города. Напишите, какую локацию вы рассматриваете — обсудим логистику и условия выезда."
+
+#: inc/admin/class-demo-content.php:173
+msgid "I have never modeled before — will you help direct me?"
+msgstr "Я никогда не фотографировался — подскажете, как себя вести в кадре?"
+
+#: inc/admin/class-demo-content.php:174
+msgid "Of course. I guide posing throughout the session and keep things relaxed — you just have to show up as yourself."
+msgstr "Конечно! Во время съёмки я помогаю с позированием и создаю комфортную атмосферу. Главное — быть собой."
+
+#: inc/admin/class-demo-content.php:199
+msgid "About"
+msgstr "Обо мне"
+
+#: inc/admin/class-demo-content.php:205
+msgid "I create atmospheric sessions where every detail works toward a story. It is more than a pretty picture — it is a chance to live a moment and keep the feeling of it."
+msgstr "Я создаю атмосферные съёмки, в которых каждая деталь работает на историю. Это больше, чем просто красивая картинка — это возможность прожить момент и сохранить ощущение."
+
+#: inc/admin/class-demo-content.php:206
+msgid "My work blends atmosphere, visual storytelling and careful direction."
+msgstr "Моё творчество — это синтез атмосферы, визуального повествования и тонкой режиссуры."
+
+#: inc/admin/class-demo-content.php:212
+msgid "Capturing moments"
+msgstr "Захватывать моменты"
+
+#: inc/admin/class-demo-content.php:213
+msgid "The most honest photos come from relaxed, unscripted moments — I build the conditions for those to happen."
+msgstr "Самые искренние кадры рождаются из лёгких, непринуждённых ситуаций. Я создаю условия, в которых получается тот самый кадр."
+
+#: inc/admin/class-demo-content.php:216
+msgid "Emotion first"
+msgstr "Эмоция в центре"
+
+#: inc/admin/class-demo-content.php:217
+msgid "Light, pose and colour all serve one goal: capturing how a moment felt, not just how it looked."
+msgstr "Свет, поза, цвет — всё подчинено одному: передать состояние и атмосферу, а не только то, как это выглядело."
+
+#: inc/admin/class-demo-content.php:220
+msgid "Timeless, not trendy"
+msgstr "Визуальные истории вне времени"
+
+#: inc/admin/class-demo-content.php:221
+msgid "I am not chasing trends — I build series meant to be looked at again in ten years."
+msgstr "Я не гонюсь за трендами. Я создаю серии, которые хочется пересматривать снова и снова."
+
+#: inc/admin/class-demo-content.php:234
+msgid "Contacts"
+msgstr "Контакты"
+
+#: inc/admin/class-demo-content.php:47
+msgid "Whispering Forest"
+msgstr "Тайна шепчущего леса"
+
+#: inc/admin/class-demo-content.php:48
+msgid "A misty-forest art series with deep reds and quiet, storybook light."
+msgstr "Арт-серия в туманном лесу с глубокими оттенками красного и спокойным сказочным светом."
+
+#: inc/admin/class-demo-content.php:49
+msgid "A fantasy-inspired portrait session shot in the woods at golden hour, built around a single character and a simple story. Great for anyone who wants a portrait session that feels like a scene from a film."
+msgstr "Арт-съёмка с элементами фэнтези в лесу на закате, построенная вокруг одного образа и простой истории. Подходит тем, кто хочет съёмку, похожую на кадр из фильма."
+
+#: inc/admin/class-demo-content.php:52
+msgid "from $450"
+msgstr "от 45 000 ₽"
+
+#: inc/admin/class-demo-content.php:53
+msgid "Booking now"
+msgstr "Идёт набор"
+
+#: inc/admin/class-demo-content.php:58
+msgid "City at Dusk"
+msgstr "Город в сумерках"
+
+#: inc/admin/class-demo-content.php:59
+msgid "An urban editorial series shot as the city lights come on."
+msgstr "Городская арт-съёмка на закате, когда зажигаются огни."
+
+#: inc/admin/class-demo-content.php:60
+msgid "A moody, cinematic portrait session across the city at blue hour — reflections, neon and long shadows."
+msgstr "Атмосферная кинематографичная съёмка по городу в час синих сумерек — отражения, неон и длинные тени."
+
+#: inc/admin/class-demo-content.php:63
+msgid "from $400"
+msgstr "от 40 000 ₽"
+
+#: inc/admin/class-demo-content.php:64
+msgid "Spring 2026"
+msgstr "Весна 2026"
+
+#: inc/admin/class-demo-content.php:69
+msgid "Anna & Michael"
+msgstr "Свадьба Ирины и Олега"
+
+#: inc/admin/class-demo-content.php:70
+msgid "A quiet, documentary-style wedding day, told frame by frame."
+msgstr "Спокойный свадебный день в репортажном стиле, рассказанный кадр за кадром."
+
+#: inc/admin/class-demo-content.php:71
+msgid "A full-day wedding story focused on genuine, unposed moments rather than staged shots."
+msgstr "Полный съёмочный день свадьбы, сосредоточенный на настоящих моментах, а не постановочных кадрах."
+
+#: inc/admin/class-demo-content.php:74
+msgid "from $1,200"
+msgstr "от 120 000 ₽"
+
+#: inc/admin/class-demo-content.php:75
+msgid "Summer 2025"
+msgstr "Июль 2025"
+
+#: inc/admin/class-demo-content.php:80
+msgid "Studio Portraits"
+msgstr "Студийный портрет"
+
+#: inc/admin/class-demo-content.php:81
+msgid "Clean, classic studio portraits with a modern, minimal look."
+msgstr "Чистый классический студийный портрет в современном минималистичном стиле."
+
+#: inc/admin/class-demo-content.php:82
+msgid "A simple studio session — one backdrop, natural expressions, a handful of outfit changes."
+msgstr "Простая студийная съёмка — один фон, естественные образы, несколько смен одежды."
+
+#: inc/admin/class-demo-content.php:85
+msgid "from $250"
+msgstr "от 25 000 ₽"
+
+#: inc/admin/class-demo-content.php:86
+msgid "Year-round"
+msgstr "Круглый год"
+
+#: inc/admin/class-help-tabs.php:23
+msgid "About Projects"
+msgstr "О проектах"
+
+#: inc/admin/class-help-tabs.php:25
+msgid "A Project is one entry in your portfolio."
+msgstr "«Проект» — это одна карточка в вашем портфолио."
+
+#: inc/admin/class-help-tabs.php:26
+msgid "Price, dates, status and the photo gallery are set in the \"Project Details\" box below the main editor. The main editor text is a short public description shown next to those details."
+msgstr "Цена, даты, статус и галерея фото задаются в блоке «Информация о проекте» под основным редактором. Текст в основном редакторе — короткое публичное описание рядом с этими данными."
+
+#: inc/admin/class-help-tabs.php:27
+msgid "Categories and Statuses (right-hand sidebar) power the filter buttons on your portfolio page — add as many as you like."
+msgstr "Категории и статусы (правая колонка) формируют кнопки фильтра на странице портфолио — можно добавить сколько угодно."
+
+#: inc/admin/class-help-tabs.php:28
+msgid "\"Show on Homepage\" (right-hand sidebar) controls whether this project appears in the homepage slider and/or the curated projects grid."
+msgstr "Блок «Показывать на главной» (справа) управляет тем, появится ли проект в слайдере на главной и/или в подборке проектов."
+
+#: inc/admin/class-help-tabs.php:37
+msgid "About Testimonials"
+msgstr "Об отзывах"
+
+#: inc/admin/class-help-tabs.php:39
+msgid "The Title field is the client's name (e.g. \"Jane D.\" — a first name and last initial is common for privacy)."
+msgstr "Поле «Заголовок» — это имя клиента (например, «Елена О.» — часто указывают имя и первую букву фамилии)."
+
+#: inc/admin/class-help-tabs.php:40
+msgid "Set a Featured Image for the client's photo, and fill in the review text in the box below."
+msgstr "Загрузите «Изображение записи» как фото клиента и заполните текст отзыва в поле ниже."
+
+#: inc/admin/class-help-tabs.php:41
+msgid "Drag testimonials up and down in the list view to change the order they appear in on the homepage."
+msgstr "Перетаскивайте отзывы вверх и вниз в списке записей, чтобы изменить порядок их показа на главной."
+
+#: inc/admin/class-help-tabs.php:50
+msgid "About FAQ"
+msgstr "О разделе FAQ"
+
+#: inc/admin/class-help-tabs.php:52
+msgid "Type the question as the Title, and the answer in the main editor below."
+msgstr "Введите вопрос в поле «Заголовок», а ответ — в основном редакторе ниже."
+
+#: inc/admin/class-help-tabs.php:53
+msgid "Drag entries up and down in the list view to change the order they appear in on the homepage."
+msgstr "Перетаскивайте записи вверх и вниз в списке, чтобы изменить порядок их показа на главной."
+
+#: inc/admin/class-welcome-screen.php:102
+msgid "Add a few frequently asked questions (optional)"
+msgstr "Добавьте несколько частых вопросов (необязательно)"
+
+#: inc/admin/class-welcome-screen.php:121
+msgid "Demo content has been added. Take a look around, then replace it with your own photos and words."
+msgstr "Демо-контент добавлен. Осмотритесь, а затем замените его своими фото и текстами."
+
+#: inc/admin/class-welcome-screen.php:124
+msgid "Demo content has been removed."
+msgstr "Демо-контент удалён."
+
+#: inc/admin/class-welcome-screen.php:133
+msgid "Welcome to Studio Frame"
+msgstr "Добро пожаловать в Studio Frame"
+
+#: inc/admin/class-welcome-screen.php:134
+msgid "This page walks you through setting up your photography site. Everything here can also be changed later — nothing is permanent."
+msgstr "Эта страница поможет настроить сайт фотографа. Всё, что здесь есть, можно изменить позже — ничего необратимого."
+
+#: inc/admin/class-welcome-screen.php:140
+#. translators: translators: 1: number of completed steps, 2: total steps
+msgid "Setup checklist (%1$d of %2$d done)"
+msgstr "Чек-лист настройки (готово %1$d из %2$d)"
+
+#: inc/admin/class-welcome-screen.php:152
+msgid "Do this now"
+msgstr "Сделать сейчас"
+
+#: inc/admin/class-welcome-screen.php:158
+msgid "Not sure where to start?"
+msgstr "Не знаете, с чего начать?"
+
+#: inc/admin/class-welcome-screen.php:16
+msgid "Studio Frame: Get Started"
+msgstr "Studio Frame: Начало работы"
+
+#: inc/admin/class-welcome-screen.php:160
+msgid "Install one-click demo content — a few sample projects, testimonials and FAQ entries — to see how a finished site looks, then replace it with your own material at your own pace."
+msgstr "Установите демо-контент в один клик — несколько примеров проектов, отзывов и вопросов FAQ — чтобы увидеть, как выглядит готовый сайт, а затем постепенно замените его своими материалами."
+
+#: inc/admin/class-welcome-screen.php:165
+msgid "Remove all demo projects, testimonials and FAQ entries?"
+msgstr "Удалить все демо-проекты, отзывы и вопросы FAQ?"
+
+#: inc/admin/class-welcome-screen.php:166
+msgid "Remove demo content"
+msgstr "Удалить демо-контент"
+
+#: inc/admin/class-welcome-screen.php:17 inc/admin/class-admin-notices.php:47
+msgid "Get Started"
+msgstr "Начало работы"
+
+#: inc/admin/class-welcome-screen.php:170
+msgid "Install demo content"
+msgstr "Установить демо-контент"
+
+#: inc/admin/class-welcome-screen.php:175
+msgid "Where to customize things"
+msgstr "Где что настраивается"
+
+#: inc/admin/class-welcome-screen.php:177
+msgid "Customizer — text, colours, contact details, social links"
+msgstr "Настройщик — тексты, цвета, контакты, соцсети"
+
+#: inc/admin/class-welcome-screen.php:178
+msgid "Projects — your portfolio entries"
+msgstr "Проекты — записи вашего портфолио"
+
+#: inc/admin/class-welcome-screen.php:179
+msgid "Testimonials — client reviews shown on the homepage"
+msgstr "Отзывы — отзывы клиентов на главной странице"
+
+#: inc/admin/class-welcome-screen.php:180
+msgid "FAQ — questions and answers shown on the homepage"
+msgstr "FAQ — вопросы и ответы на главной странице"
+
+#: inc/admin/class-welcome-screen.php:181
+msgid "Menus — header and footer navigation"
+msgstr "Меню — навигация в шапке и подвале"
+
+#: inc/admin/class-welcome-screen.php:67
+msgid "Upload your logo"
+msgstr "Загрузите логотип"
+
+#: inc/admin/class-welcome-screen.php:72
+msgid "Set your contact e-mail (for booking requests)"
+msgstr "Укажите e-mail для заявок"
+
+#: inc/admin/class-welcome-screen.php:77
+msgid "Create a primary menu"
+msgstr "Создайте основное меню"
+
+#: inc/admin/class-welcome-screen.php:82
+msgid "Add at least one project to your portfolio"
+msgstr "Добавьте хотя бы один проект в портфолио"
+
+#: inc/admin/class-welcome-screen.php:87
+msgid "Create an \"About\" page (assign the \"About the photographer\" template)"
+msgstr "Создайте страницу «Обо мне» (назначьте шаблон «О фотографе»)"
+
+#: inc/admin/class-welcome-screen.php:92
+msgid "Create a \"Contacts\" page (assign the \"Contacts\" template)"
+msgstr "Создайте страницу «Контакты» (назначьте шаблон «Контакты»)"
+
+#: inc/admin/class-welcome-screen.php:97
+msgid "Add a client testimonial (optional, but recommended)"
+msgstr "Добавьте отзыв клиента (необязательно, но рекомендуется)"
+
+#: inc/blocks/class-block-patterns.php:17
+msgid "Studio Frame"
+msgstr "Studio Frame"
+
+#: inc/blocks/class-block-patterns.php:26
+msgid "Call to action band"
+msgstr "Блок призыва к действию"
+
+#: inc/blocks/class-block-patterns.php:27
+msgid "A full-width statement with two buttons, similar to the theme's own \"let's work together\" section."
+msgstr "Полноширинный блок с текстом и двумя кнопками — как секция «Давайте работать вместе» в теме."
+
+#: inc/blocks/class-block-patterns.php:32
+msgid "Want to work together?"
+msgstr "Хотите поработать вместе?"
+
+#: inc/blocks/class-block-patterns.php:36
+msgid "Tell me about your idea and I'll get back to you within a day or two."
+msgstr "Расскажите о своей идее — я отвечу в течение одного-двух дней."
+
+#: inc/blocks/class-block-patterns.php:42
+msgid "Get in touch"
+msgstr "Связаться"
+
+#: inc/blocks/class-block-patterns.php:54
+msgid "Portrait with text"
+msgstr "Портрет с текстом"
+
+#: inc/blocks/class-block-patterns.php:55
+msgid "An image next to a heading and a paragraph, useful for a services page or a personal note."
+msgstr "Изображение рядом с заголовком и текстом — пригодится для страницы услуг или личной истории."
+
+#: inc/blocks/class-block-patterns.php:70
+msgid "A heading goes here"
+msgstr "Здесь заголовок"
+
+#: inc/blocks/class-block-patterns.php:74
+msgid "Write a couple of paragraphs here — this pattern works well for a services page, pricing explanation, or an extended bio."
+msgstr "Напишите здесь пару абзацев — этот паттерн подходит для страницы услуг, описания цен или расширенного «обо мне»."
+
+#: inc/blocks/class-block-patterns.php:86
+msgid "Soft info panel"
+msgstr "Мягкая информационная панель"
+
+#: inc/blocks/class-block-patterns.php:87
+msgid "A rounded, softly-coloured box for a highlighted note or quote."
+msgstr "Скруглённый блок мягкого цвета для выделенной заметки или цитаты."
+
+#: inc/blocks/class-block-patterns.php:92
+msgid "Use this panel to highlight a quote, a note about booking, or anything that should stand out from the rest of the page."
+msgstr "Используйте эту панель, чтобы выделить цитату, заметку о бронировании или что-то важное на странице."
+
+#: inc/blocks/class-block-styles.php:18
+msgid "Studio Frame Main"
+msgstr "Studio Frame — основная"
+
+#: inc/blocks/class-block-styles.php:26
+msgid "Studio Frame Secondary"
+msgstr "Studio Frame — вторичная"
+
+#: inc/blocks/class-block-styles.php:34
+msgid "Soft Panel"
+msgstr "Мягкая панель"
+
+#: inc/cmb2/metaboxes-page.php:31
+msgid "About Page Content"
+msgstr "Содержимое страницы «Обо мне»"
+
+#: inc/cmb2/metaboxes-page.php:42
+msgid "Intro text"
+msgstr "Вступительный текст"
+
+#: inc/cmb2/metaboxes-page.php:43
+msgid "A short paragraph under your name, introducing your style and approach."
+msgstr "Короткий абзац под именем, представляющий ваш стиль и подход."
+
+#: inc/cmb2/metaboxes-page.php:51
+msgid "Closing statement"
+msgstr "Итоговое утверждение"
+
+#: inc/cmb2/metaboxes-page.php:52
+msgid "A short bold statement shown above the list below, e.g. \"My work blends mood, story and craft.\""
+msgstr "Короткая яркая фраза над списком ниже, например «Моё творчество — синтез настроения, истории и мастерства»."
+
+#: inc/cmb2/metaboxes-page.php:62
+msgid "A short list of 2–4 points describing how you work (e.g. \"Capturing moments\", \"Emotion first\")."
+msgstr "Короткий список из 2–4 пунктов о вашем подходе к работе (например, «Захватывать моменты», «Эмоция в центре»)."
+
+#: inc/cmb2/metaboxes-page.php:64
+msgid "Point {#}"
+msgstr "Пункт {#}"
+
+#: inc/cmb2/metaboxes-page.php:65
+msgid "Add Another Point"
+msgstr "Добавить ещё пункт"
+
+#: inc/cmb2/metaboxes-page.php:66
+msgid "Remove Point"
+msgstr "Удалить пункт"
+
+#: inc/cmb2/metaboxes-page.php:75
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/cmb2/metaboxes-page.php:84 inc/customizer/controls-cta.php:50 inc/customizer/controls-about.php:49
+msgid "Text"
+msgstr "Текст"
+
+#: inc/cmb2/metaboxes-project.php:101
+msgid "Homepage slider"
+msgstr "Слайдер на главной"
+
+#: inc/cmb2/metaboxes-project.php:102
+msgid "Feature this project in the large image slider at the top of the homepage."
+msgstr "Показывать этот проект в большом слайдере в начале главной страницы."
+
+#: inc/cmb2/metaboxes-project.php:110
+msgid "Homepage projects list"
+msgstr "Список проектов на главной"
+
+#: inc/cmb2/metaboxes-project.php:111
+msgid "Feature this project in the curated grid on the homepage. If nothing is featured, the most recent projects are shown automatically."
+msgstr "Показывать этот проект в подборке на главной. Если ничего не отмечено, автоматически показываются последние проекты."
+
+#: inc/cmb2/metaboxes-project.php:17
+msgid "Project Details"
+msgstr "Информация о проекте"
+
+#: inc/cmb2/metaboxes-project.php:27
+msgid "Price"
+msgstr "Цена"
+
+#: inc/cmb2/metaboxes-project.php:28
+msgid "The starting price shown on the project page, e.g. \"$500\". Leave empty to hide the price line."
+msgstr "Стартовая цена на странице проекта, например «от 50 000 ₽». Оставьте пустым, чтобы скрыть строку цены."
+
+#: inc/cmb2/metaboxes-project.php:31
+msgid "e.g. from $500"
+msgstr "например, от 50 000 ₽"
+
+#: inc/cmb2/metaboxes-project.php:37
+msgid "Price note"
+msgstr "Примечание к цене"
+
+#: inc/cmb2/metaboxes-project.php:38
+msgid "Optional extra detail shown next to the price, e.g. \"for a 2-hour session\"."
+msgstr "Необязательное уточнение рядом с ценой, например «за 2 часа съёмки»."
+
+#: inc/cmb2/metaboxes-project.php:46
+msgid "Date / period"
+msgstr "Дата / период"
+
+#: inc/cmb2/metaboxes-project.php:47
+msgid "Free text — a month, a season, or \"Booking now\", whatever fits this project."
+msgstr "Произвольный текст — месяц, сезон или «Идёт набор» — что подходит этому проекту."
+
+#: inc/cmb2/metaboxes-project.php:50
+msgid "e.g. September 2026"
+msgstr "например, сентябрь 2026"
+
+#: inc/cmb2/metaboxes-project.php:56
+msgid "Short description for cards"
+msgstr "Короткое описание для карточек"
+
+#: inc/cmb2/metaboxes-project.php:57
+msgid "A one- or two-sentence teaser shown on the homepage slider and project cards. If left empty, the excerpt is used instead."
+msgstr "Одно-два предложения для слайдера на главной и карточек проектов. Если оставить пустым, используется отрывок записи."
+
+#: inc/cmb2/metaboxes-project.php:65
+msgid "Gallery"
+msgstr "Галерея"
+
+#: inc/cmb2/metaboxes-project.php:66
+msgid "Upload the photos for this project, in the order you want them shown. The first photo is also used as the cover/thumbnail wherever a single image is needed."
+msgstr "Загрузите фото проекта в том порядке, в котором они должны показываться. Первое фото также используется как обложка."
+
+#: inc/cmb2/metaboxes-project.php:70
+msgid "Add Photos"
+msgstr "Добавить фото"
+
+#: inc/cmb2/metaboxes-project.php:71 inc/cmb2/metaboxes-project.php:73
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/cmb2/metaboxes-project.php:72
+msgid "Photo:"
+msgstr "Фото:"
+
+#: inc/cmb2/metaboxes-project.php:81
+msgid "Book now button label"
+msgstr "Текст кнопки записи"
+
+#: inc/cmb2/metaboxes-project.php:82
+msgid "Leave empty to use the default \"Book now\"."
+msgstr "Оставьте пустым, чтобы использовать текст по умолчанию «Записаться»."
+
+#: inc/cmb2/metaboxes-project.php:91
+msgid "Show on Homepage"
+msgstr "Показывать на главной"
+
+#: inc/cmb2/metaboxes-testimonial.php:16
+msgid "Review Text"
+msgstr "Текст отзыва"
+
+#: inc/cmb2/metaboxes-testimonial.php:26
+msgid "Review"
+msgstr "Отзыв"
+
+#: inc/cmb2/metaboxes-testimonial.php:27
+msgid "The client's quote, shown next to their name and photo."
+msgstr "Цитата клиента рядом с его именем и фото."
+
+#: inc/cpt/class-cpt-faq.php:14
+msgctxt "post type general name"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/cpt/class-cpt-faq.php:15
+msgctxt "post type singular name"
+msgid "FAQ Item"
+msgstr "Вопрос FAQ"
+
+#: inc/cpt/class-cpt-faq.php:16
+msgctxt "admin menu"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/cpt/class-cpt-faq.php:17 inc/cpt/class-cpt-project.php:17 inc/cpt/class-cpt-testimonial.php:17
+msgid "Add New"
+msgstr "Добавить"
+
+#: inc/cpt/class-cpt-faq.php:18
+msgid "Add New Question"
+msgstr "Добавить вопрос"
+
+#: inc/cpt/class-cpt-faq.php:19
+msgid "Edit Question"
+msgstr "Редактировать вопрос"
+
+#: inc/cpt/class-cpt-faq.php:20
+msgid "New Question"
+msgstr "Новый вопрос"
+
+#: inc/cpt/class-cpt-faq.php:21
+msgid "Search Questions"
+msgstr "Искать вопросы"
+
+#: inc/cpt/class-cpt-faq.php:22
+msgid "No questions yet. Click \"Add New\" to add your first FAQ entry."
+msgstr "Пока нет вопросов. Нажмите «Добавить», чтобы создать первый."
+
+#: inc/cpt/class-cpt-faq.php:23
+msgid "No questions found in Trash."
+msgstr "В корзине нет вопросов."
+
+#: inc/cpt/class-cpt-faq.php:24
+msgid "All Questions"
+msgstr "Все вопросы"
+
+#: inc/cpt/class-cpt-faq.php:50
+msgid "Type the question here"
+msgstr "Введите вопрос здесь"
+
+#: inc/cpt/class-cpt-faq.php:63
+msgid "Type the question as the title above, and write the answer in the editor below."
+msgstr "Введите вопрос в поле заголовка выше, а ответ напишите в редакторе ниже."
+
+#: inc/cpt/class-cpt-project.php:14
+msgctxt "post type general name"
+msgid "Projects"
+msgstr "Проекты"
+
+#: inc/cpt/class-cpt-project.php:15
+msgctxt "post type singular name"
+msgid "Project"
+msgstr "Проект"
+
+#: inc/cpt/class-cpt-project.php:16
+msgctxt "admin menu"
+msgid "Projects"
+msgstr "Проекты"
+
+#: inc/cpt/class-cpt-project.php:18
+msgid "Add New Project"
+msgstr "Добавить проект"
+
+#: inc/cpt/class-cpt-project.php:19
+msgid "Edit Project"
+msgstr "Редактировать проект"
+
+#: inc/cpt/class-cpt-project.php:20
+msgid "New Project"
+msgstr "Новый проект"
+
+#: inc/cpt/class-cpt-project.php:21
+msgid "View Project"
+msgstr "Смотреть проект"
+
+#: inc/cpt/class-cpt-project.php:22
+msgid "View Projects"
+msgstr "Смотреть проекты"
+
+#: inc/cpt/class-cpt-project.php:23
+msgid "Search Projects"
+msgstr "Искать проекты"
+
+#: inc/cpt/class-cpt-project.php:24
+msgid "No projects found. Click \"Add New\" to create your first portfolio entry."
+msgstr "Проекты не найдены. Нажмите «Добавить», чтобы создать первую запись портфолио."
+
+#: inc/cpt/class-cpt-project.php:25
+msgid "No projects found in Trash."
+msgstr "В корзине нет проектов."
+
+#: inc/cpt/class-cpt-project.php:26
+msgid "All Projects"
+msgstr "Все проекты"
+
+#: inc/cpt/class-cpt-project.php:27
+msgid "Project Archives"
+msgstr "Архив проектов"
+
+#: inc/cpt/class-cpt-project.php:28
+msgid "Project Attributes"
+msgstr "Атрибуты проекта"
+
+#: inc/cpt/class-cpt-project.php:29
+msgid "Cover Photo"
+msgstr "Обложка"
+
+#: inc/cpt/class-cpt-project.php:30
+msgid "Set cover photo"
+msgstr "Задать обложку"
+
+#: inc/cpt/class-cpt-project.php:31
+msgid "Remove cover photo"
+msgstr "Удалить обложку"
+
+#: inc/cpt/class-cpt-project.php:65
+msgid "Tip: give this project a Cover Photo (bottom-right) and fill in the fields below the editor — price, dates, status and the photo gallery. The main editor above is a short public description shown next to the details."
+msgstr "Совет: задайте проекту обложку (справа внизу) и заполните поля под редактором — цену, даты, статус и галерею. Основной редактор выше — это короткое публичное описание рядом с этими данными."
+
+#: inc/cpt/class-cpt-testimonial.php:14
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: inc/cpt/class-cpt-testimonial.php:15
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: inc/cpt/class-cpt-testimonial.php:16
+msgctxt "admin menu"
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: inc/cpt/class-cpt-testimonial.php:18
+msgid "Add New Testimonial"
+msgstr "Добавить отзыв"
+
+#: inc/cpt/class-cpt-testimonial.php:19
+msgid "Edit Testimonial"
+msgstr "Редактировать отзыв"
+
+#: inc/cpt/class-cpt-testimonial.php:20
+msgid "New Testimonial"
+msgstr "Новый отзыв"
+
+#: inc/cpt/class-cpt-testimonial.php:21
+msgid "Search Testimonials"
+msgstr "Искать отзывы"
+
+#: inc/cpt/class-cpt-testimonial.php:22
+msgid "No testimonials yet. Click \"Add New\" to add your first client review."
+msgstr "Пока нет отзывов. Нажмите «Добавить», чтобы добавить первый отзыв клиента."
+
+#: inc/cpt/class-cpt-testimonial.php:23
+msgid "No testimonials found in Trash."
+msgstr "В корзине нет отзывов."
+
+#: inc/cpt/class-cpt-testimonial.php:24
+msgid "All Testimonials"
+msgstr "Все отзывы"
+
+#: inc/cpt/class-cpt-testimonial.php:25
+msgid "Client Photo"
+msgstr "Фото клиента"
+
+#: inc/cpt/class-cpt-testimonial.php:26
+msgid "Set client photo"
+msgstr "Задать фото клиента"
+
+#: inc/cpt/class-cpt-testimonial.php:52
+msgid "Client name, e.g. \"Jane D.\""
+msgstr "Имя клиента, например «Елена О.»"
+
+#: inc/cpt/class-taxonomy-project-category.php:15
+msgctxt "taxonomy general name"
+msgid "Project Categories"
+msgstr "Категории проектов"
+
+#: inc/cpt/class-taxonomy-project-category.php:16
+msgctxt "taxonomy singular name"
+msgid "Project Category"
+msgstr "Категория проекта"
+
+#: inc/cpt/class-taxonomy-project-category.php:17
+msgid "Search Categories"
+msgstr "Искать категории"
+
+#: inc/cpt/class-taxonomy-project-category.php:18
+msgid "All Categories"
+msgstr "Все категории"
+
+#: inc/cpt/class-taxonomy-project-category.php:19
+msgid "Parent Category"
+msgstr "Родительская категория"
+
+#: inc/cpt/class-taxonomy-project-category.php:20
+msgid "Parent Category:"
+msgstr "Родительская категория:"
+
+#: inc/cpt/class-taxonomy-project-category.php:21
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: inc/cpt/class-taxonomy-project-category.php:22
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: inc/cpt/class-taxonomy-project-category.php:23
+msgid "Add New Category"
+msgstr "Добавить категорию"
+
+#: inc/cpt/class-taxonomy-project-category.php:24
+msgid "New Category Name"
+msgstr "Название новой категории"
+
+#: inc/cpt/class-taxonomy-project-category.php:25
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/cpt/class-taxonomy-project-status.php:16
+msgctxt "taxonomy general name"
+msgid "Project Statuses"
+msgstr "Статусы проектов"
+
+#: inc/cpt/class-taxonomy-project-status.php:17
+msgctxt "taxonomy singular name"
+msgid "Project Status"
+msgstr "Статус проекта"
+
+#: inc/cpt/class-taxonomy-project-status.php:18
+msgid "Search Statuses"
+msgstr "Искать статусы"
+
+#: inc/cpt/class-taxonomy-project-status.php:19
+msgid "All Statuses"
+msgstr "Все статусы"
+
+#: inc/cpt/class-taxonomy-project-status.php:20
+msgid "Edit Status"
+msgstr "Редактировать статус"
+
+#: inc/cpt/class-taxonomy-project-status.php:21
+msgid "Update Status"
+msgstr "Обновить статус"
+
+#: inc/cpt/class-taxonomy-project-status.php:22
+msgid "Add New Status"
+msgstr "Добавить статус"
+
+#: inc/cpt/class-taxonomy-project-status.php:23
+msgid "New Status Name"
+msgstr "Название нового статуса"
+
+#: inc/cpt/class-taxonomy-project-status.php:24
+msgid "Statuses"
+msgstr "Статусы"
+
+#: inc/cpt/class-taxonomy-project-status.php:55
+msgid "The dot colour shown next to this status on a project page, e.g. green for \"booking open\"."
+msgstr "Цвет точки рядом с этим статусом на странице проекта, например зелёный для «идёт набор»."
+
+#: inc/cpt/class-taxonomy-project-status.php:59 inc/cpt/class-taxonomy-project-status.php:66
+msgid "Badge colour"
+msgstr "Цвет метки"
+
+#: inc/customizer/class-customizer.php:26
+msgid "Studio Frame Settings"
+msgstr "Настройки Studio Frame"
+
+#: inc/customizer/class-customizer.php:27
+msgid "Everything on this page updates a section of your site — hero text, contact details, colours and more. Changes only go live once you click Publish."
+msgstr "Всё на этой странице обновляет соответствующий раздел сайта — текст hero, контакты, цвета и другое. Изменения вступают в силу только после нажатия «Опубликовать»."
+
+#: inc/customizer/class-customizer.php:37
+msgid "Site Identity (name, logo)"
+msgstr "Данные сайта (название, логотип)"
+
+#: inc/customizer/controls-about.php:102
+#. translators: translators: %d: image position, 1-6
+msgid "Collage photo %d"
+msgstr "Фото коллажа %d"
+
+#: inc/customizer/controls-about.php:16
+msgid "About Teaser (homepage)"
+msgstr "Блок «Обо мне» (главная)"
+
+#: inc/customizer/controls-about.php:18
+msgid "A short introduction with a 6-photo collage, shown on the homepage. For the full About page, edit the Page itself."
+msgstr "Краткое представление с коллажем из 6 фото на главной странице. Для полной страницы «Обо мне» отредактируйте саму страницу."
+
+#: inc/customizer/controls-about.php:65
+msgid "Link text"
+msgstr "Текст ссылки"
+
+#: inc/customizer/controls-about.php:81
+msgid "Link URL"
+msgstr "Адрес ссылки"
+
+#: inc/customizer/controls-about.php:82
+msgid "Point this to your About page."
+msgstr "Укажите ссылку на страницу «Обо мне»."
+
+#: inc/customizer/controls-colors.php:17
+msgid "Colours"
+msgstr "Цвета"
+
+#: inc/customizer/controls-colors.php:19
+msgid "Changes apply across the whole site immediately."
+msgstr "Изменения применяются сразу на всём сайте."
+
+#: inc/customizer/controls-colors.php:26
+msgid "Primary (text & accents)"
+msgstr "Основной (текст и акценты)"
+
+#: inc/customizer/controls-colors.php:30
+msgid "Page background"
+msgstr "Фон страницы"
+
+#: inc/customizer/controls-colors.php:34
+msgid "Accent (status dots, highlights)"
+msgstr "Акцентный (точки статусов, выделения)"
+
+#: inc/customizer/controls-colors.php:38
+msgid "Secondary (muted text)"
+msgstr "Вторичный (приглушённый текст)"
+
+#: inc/customizer/controls-contacts.php:100
+msgid "Basic HTML links are allowed, e.g. a link to your Privacy Policy page."
+msgstr "Разрешена простая HTML-разметка, например ссылка на страницу политики конфиденциальности."
+
+#: inc/customizer/controls-contacts.php:16
+msgid "Contact Details"
+msgstr "Контактные данные"
+
+#: inc/customizer/controls-contacts.php:18
+msgid "Shown in the Contacts section on every page, and used as the recipient for the contact/booking forms."
+msgstr "Показывается в разделе «Контакты» на каждой странице и используется как получатель заявок с форм."
+
+#: inc/customizer/controls-contacts.php:33
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: inc/customizer/controls-contacts.php:34
+msgid "Leave empty to hide the phone line."
+msgstr "Оставьте пустым, чтобы скрыть строку телефона."
+
+#: inc/customizer/controls-contacts.php:50
+msgid "Contact e-mail"
+msgstr "Контактный e-mail"
+
+#: inc/customizer/controls-contacts.php:51
+msgid "Where booking and contact form submissions are sent. Leave empty to use your WordPress admin e-mail."
+msgstr "Куда отправлять заявки с форм бронирования и контактов. Оставьте пустым, чтобы использовать e-mail администратора WordPress."
+
+#: inc/customizer/controls-contacts.php:67
+msgid "Studio address (optional)"
+msgstr "Адрес студии (необязательно)"
+
+#: inc/customizer/controls-contacts.php:83
+msgid "Working hours (optional)"
+msgstr "Часы работы (необязательно)"
+
+#: inc/customizer/controls-contacts.php:99
+msgid "Note under the booking form (optional)"
+msgstr "Примечание под формой бронирования (необязательно)"
+
+#: inc/customizer/controls-cta.php:100
+msgid "Primary button link"
+msgstr "Ссылка основной кнопки"
+
+#: inc/customizer/controls-cta.php:101 inc/customizer/controls-hero.php:84
+msgid "Leave empty to link to your Projects page automatically."
+msgstr "Оставьте пустым, чтобы автоматически вести на страницу проектов."
+
+#: inc/customizer/controls-cta.php:117
+msgid "Secondary button text"
+msgstr "Текст второй кнопки"
+
+#: inc/customizer/controls-cta.php:133
+msgid "Secondary button link"
+msgstr "Ссылка второй кнопки"
+
+#: inc/customizer/controls-cta.php:134
+msgid "Leave empty to link to the contact form automatically."
+msgstr "Оставьте пустым, чтобы автоматически вести к форме контактов."
+
+#: inc/customizer/controls-cta.php:17
+msgid "Call to Action Band"
+msgstr "Блок призыва к действию"
+
+#: inc/customizer/controls-cta.php:19
+msgid "The full-width statement with two buttons shown on the homepage and every project page."
+msgstr "Полноширинный блок с текстом и двумя кнопками, показывается на главной и на страницах проектов."
+
+#: inc/customizer/controls-cta.php:34 inc/customizer/controls-footer.php:32 inc/customizer/controls-about.php:33
+msgid "Heading"
+msgstr "Заголовок"
+
+#: inc/customizer/controls-cta.php:68
+msgid "Background photo"
+msgstr "Фоновое фото"
+
+#: inc/customizer/controls-cta.php:84
+msgid "Primary button text"
+msgstr "Текст основной кнопки"
+
+#: inc/customizer/controls-footer.php:16
+msgid "Footer"
+msgstr "Подвал"
+
+#: inc/customizer/controls-footer.php:50
+msgid "Portrait photo"
+msgstr "Портретное фото"
+
+#: inc/customizer/controls-footer.php:51
+msgid "A tall photo, e.g. of yourself. Optional — leave empty to hide it."
+msgstr "Вертикальное фото, например ваш портрет. Необязательно — оставьте пустым, чтобы скрыть."
+
+#: inc/customizer/controls-footer.php:68
+#. translators: translators: %s: current year, replaced automatically
+msgid "Copyright line"
+msgstr "Строка копирайта"
+
+#: inc/customizer/controls-footer.php:69
+#. translators: translators: %s: current year, replaced automatically
+msgid "Use [year] anywhere in the text — it is automatically replaced with the current year."
+msgstr "Используйте [year] в любом месте текста — оно автоматически заменяется текущим годом."
+
+#: inc/customizer/controls-hero.php:16
+msgid "Hero (homepage top)"
+msgstr "Hero (верх главной)"
+
+#: inc/customizer/controls-hero.php:18
+msgid "The big statement at the very top of your homepage."
+msgstr "Крупное заявление в самом верху главной страницы."
+
+#: inc/customizer/controls-hero.php:33
+msgid "Small label above the headline"
+msgstr "Маленькая надпись над заголовком"
+
+#: inc/customizer/controls-hero.php:34
+msgid "Usually your name or studio name."
+msgstr "Обычно ваше имя или название студии."
+
+#: inc/customizer/controls-hero.php:50
+msgid "Headline"
+msgstr "Заголовок"
+
+#: inc/customizer/controls-hero.php:51
+msgid "The main, large statement. Keep it short — one or two sentences work best."
+msgstr "Главное крупное утверждение. Делайте короче — одно-два предложения работают лучше всего."
+
+#: inc/customizer/controls-hero.php:67
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: inc/customizer/controls-hero.php:83
+msgid "Button link"
+msgstr "Ссылка кнопки"
+
+#: inc/customizer/controls-social.php:16
+msgid "Social Links"
+msgstr "Соцсети"
+
+#: inc/customizer/controls-social.php:18
+msgid "Leave any field empty to hide that icon everywhere on the site."
+msgstr "Оставьте поле пустым, чтобы скрыть эту иконку по всему сайту."
+
+#: inc/customizer/controls-social.php:24
+msgid "Telegram URL"
+msgstr "Ссылка на Telegram"
+
+#: inc/customizer/controls-social.php:25
+msgid "WhatsApp URL"
+msgstr "Ссылка на WhatsApp"
+
+#: inc/customizer/controls-social.php:26
+msgid "VK URL"
+msgstr "Ссылка на VK"
+
+#: inc/customizer/controls-social.php:27
+msgid "Instagram URL"
+msgstr "Ссылка на Instagram"
+
+#: inc/customizer/controls-social.php:28
+msgid "YouTube URL"
+msgstr "Ссылка на YouTube"
+
+#: inc/enqueue.php:41
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: inc/enqueue.php:42
+msgid "Your request has been sent."
+msgstr "Ваша заявка отправлена."
+
+#: inc/enqueue.php:43
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+#: inc/enqueue.php:44
+msgid "We could not send your request. Please try again."
+msgstr "Не удалось отправить заявку. Попробуйте ещё раз."
+
+#: inc/forms/class-contact-form-handler.php:102
+#. translators: translators: %s: project title
+msgid "Name"
+msgstr "Имя"
+
+#: inc/forms/class-contact-form-handler.php:103
+msgid "Phone"
+msgstr "Телефон"
+
+#: inc/forms/class-contact-form-handler.php:104
+msgid "Email"
+msgstr "Email"
+
+#: inc/forms/class-contact-form-handler.php:106
+msgid "Project"
+msgstr "Проект"
+
+#: inc/forms/class-contact-form-handler.php:110
+msgid "Message:"
+msgstr "Сообщение:"
+
+#: inc/forms/class-contact-form-handler.php:29
+msgid "Your session has expired. Please reload the page and try again."
+msgstr "Сессия истекла. Обновите страницу и попробуйте снова."
+
+#: inc/forms/class-contact-form-handler.php:40
+msgid "Please try submitting the form again."
+msgstr "Пожалуйста, отправьте форму ещё раз."
+
+#: inc/forms/class-contact-form-handler.php:44
+msgid "Too many requests. Please try again in a few minutes."
+msgstr "Слишком много запросов. Попробуйте через несколько минут."
+
+#: inc/forms/class-contact-form-handler.php:57
+msgid "Please enter your name."
+msgstr "Пожалуйста, укажите имя."
+
+#: inc/forms/class-contact-form-handler.php:60
+msgid "Please enter your phone number."
+msgstr "Пожалуйста, укажите номер телефона."
+
+#: inc/forms/class-contact-form-handler.php:63
+msgid "Please enter a valid e-mail address."
+msgstr "Пожалуйста, укажите корректный email."
+
+#: inc/forms/class-contact-form-handler.php:66
+msgid "Please confirm your consent to send the form."
+msgstr "Подтвердите согласие для отправки."
+
+#: inc/forms/class-contact-form-handler.php:78
+msgid "We could not send your request right now. Please try again or contact us directly by e-mail."
+msgstr "Сейчас не удалось отправить заявку. Попробуйте ещё раз или напишите напрямую на email."
+
+#: inc/forms/class-contact-form-handler.php:81
+msgid "Thank you! Your request has been sent."
+msgstr "Спасибо! Ваша заявка отправлена."
+
+#: inc/forms/class-contact-form-handler.php:95
+#. translators: translators: %s: project title
+msgid "New booking request: %s"
+msgstr "Новая заявка на бронирование: %s"
+
+#: inc/forms/class-contact-form-handler.php:97
+#. translators: translators: %s: project title
+msgid "New contact form submission"
+msgstr "Новое сообщение с формы контактов"
+
+#: inc/setup.php:39
+msgid "Primary Menu (header)"
+msgstr "Основное меню (шапка)"
+
+#: inc/setup.php:40
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+#: inc/setup.php:87
+msgid "Booking open"
+msgstr "Идёт набор"
+
+#: inc/setup.php:94
+msgid "Available again"
+msgstr "Можно повторить"
+
+#: inc/template-tags.php:139
+#. translators: translators: %s: search query
+msgid "Search results for \"%s\""
+msgstr "Результаты поиска по запросу «%s»"
+
+#: inc/template-tags.php:144
+#. translators: translators: %s: search query
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: inc/template-tags.php:37
+#. translators: translators: %s: price amount, e.g. "$500"
+msgid "from %s"
+msgstr "от %s"
+
+#: index.php:35
+msgid "Nothing was found."
+msgstr "Ничего не найдено."
+
+#: page-templates/template-about.php:20
+msgid "My projects"
+msgstr "Мои проекты"
+
+#: page.php:29
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: search.php:19
+#. translators: translators: %s: search query
+msgid "Search results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: search.php:39
+msgid "Nothing was found for this search."
+msgstr "По этому запросу ничего не найдено."
+
+#: searchform.php:15
+msgid "Search…"
+msgstr "Поиск…"
+
+#: searchform.php:20 searchform.php:21
+msgid "Search"
+msgstr "Поиск"
+
+#: template-parts/contact/contact-form.php:29
+msgid "Your name *"
+msgstr "Ваше имя *"
+
+#: template-parts/contact/contact-form.php:31 template-parts/contact/contact-form.php:38 template-parts/contact/contact-form.php:44
+msgid "This field is required"
+msgstr "Поле обязательно для заполнения"
+
+#: template-parts/contact/contact-form.php:36
+msgid "Phone number *"
+msgstr "Номер телефона *"
+
+#: template-parts/contact/contact-form.php:42
+msgid "Email *"
+msgstr "Email *"
+
+#: template-parts/contact/contact-form.php:49
+msgid "Message"
+msgstr "Комментарий"
+
+#: template-parts/contact/contact-form.php:55
+msgid "I agree to the processing of my personal data"
+msgstr "Я согласен на обработку персональных данных"
+
+#: template-parts/contact/contact-form.php:57
+msgid "Please confirm your consent to send the form"
+msgstr "Подтвердите согласие для отправки"
+
+#: template-parts/contact/contact-info.php:51
+msgid "Shall we discuss your project?"
+msgstr "Обсудим проект?"
+
+#: template-parts/global/footer-nav.php:31 template-parts/navigation/primary-nav.php:35 inc/template-tags.php:110 inc/template-tags.php:119 inc/template-tags.php:124
+msgid "Projects"
+msgstr "Проекты"
+
+#: template-parts/global/footer-nav.php:35 template-parts/navigation/primary-nav.php:36 template-parts/contact/contact-info.php:30
+msgid "Contact"
+msgstr "Контакты"
+
+#: template-parts/global/footer-nav.php:40
+msgid "Footer menu"
+msgstr "Меню в подвале"
+
+#: template-parts/home/about-teaser.php:13 inc/customizer/controls-about.php:26
+msgid "Photography that feels like a story, told frame by frame."
+msgstr "Я — фотограф, создающий атмосферные съёмки в арт-стиле, где важна каждая эмоция, каждый образ, каждая история."
+
+#: template-parts/home/about-teaser.php:14 inc/customizer/controls-about.php:42
+msgid "Every shoot is planned like a scene: mood, storyline and a visual signature. My sessions are not just photographs — they are an aesthetic experience you can live through and keep."
+msgstr "Я снимаю так, чтобы кадры ощущались как кино: с настроением, сюжетом и визуальным почерком. Мои съёмки — это не просто фотографии, это эстетика, в которой клиент может выразить себя."
+
+#: template-parts/home/about-teaser.php:15 inc/customizer/controls-about.php:58
+msgid "More about me"
+msgstr "Подробнее обо мне"
+
+#: template-parts/home/cta.php:13 inc/customizer/controls-cta.php:27
+msgid "Want to become part of a visual story?"
+msgstr "Хочешь стать частью визуальной истории?"
+
+#: template-parts/home/cta.php:14 inc/customizer/controls-cta.php:43
+msgid "Pick one of the projects below or pitch your own idea."
+msgstr "Выбери один из проектов или предложи свою идею."
+
+#: template-parts/home/cta.php:17 template-parts/home/hero.php:15 inc/customizer/controls-cta.php:77 inc/customizer/controls-hero.php:60
+msgid "Choose a project"
+msgstr "Выбрать проект"
+
+#: template-parts/home/cta.php:19 inc/customizer/controls-cta.php:110
+msgid "Discuss your project"
+msgstr "Обсудить свой проект"
+
+#: template-parts/home/faq.php:28
+msgid "Frequently asked questions"
+msgstr "Отвечаю на ваши вопросы"
+
+#: template-parts/home/hero.php:14 inc/customizer/controls-hero.php:43
+msgid "Art photography with a story. Images you believe in."
+msgstr "Арт-фотография с историей. Образы, в которые веришь."
+
+#: template-parts/home/projects-teaser.php:45
+msgid "Stories you can live through"
+msgstr "Истории, которые можно прожить"
+
+#: template-parts/home/reviews.php:28
+msgid "Client reviews"
+msgstr "Отзывы клиентов"
+
+#: template-parts/home/slider.php:75 template-parts/home/slider.php:76
+msgid "Learn more"
+msgstr "Подробнее"
+
+#: template-parts/home/slider.php:87
+msgid "Prev"
+msgstr "Назад"
+
+#: template-parts/home/slider.php:89
+msgid "Next"
+msgstr "Далее"
+
+#: template-parts/navigation/primary-nav.php:20 template-parts/navigation/primary-nav.php:32
+msgid "Primary menu"
+msgstr "Основное меню"
+
+#: template-parts/navigation/primary-nav.php:34 inc/template-tags.php:103
+msgid "Home"
+msgstr "Главная"
+
+#: template-parts/navigation/primary-nav.php:40
+msgid "Only visible to you: create a menu under Appearance > Menus and assign it to \"Primary Menu (header)\" to replace this placeholder."
+msgstr "Видно только вам: создайте меню в разделе «Внешний вид → Меню» и назначьте его как «Основное меню (шапка)», чтобы заменить эту заглушку."
+
+#: template-parts/project/booking-modal.php:17
+msgid "Close dialog"
+msgstr "Закрыть модальное окно"
+
+#: template-parts/project/booking-modal.php:20
+msgid "Book a photo session"
+msgstr "Заказать фотосессию"
+
+#: template-parts/project/booking-modal.php:33
+#. translators: translators: %s: link to the site's Privacy Policy page
+msgid "By submitting this form you agree to the %s."
+msgstr "Нажимая на кнопку, вы соглашаетесь с %s."
+
+#: template-parts/project/booking-modal.php:34
+#. translators: translators: %s: link to the site's Privacy Policy page
+msgid "Privacy Policy"
+msgstr "Политикой конфиденциальности"
+
+#: template-parts/project/booking-modal.php:37
+#. translators: translators: %s: link to the site's Privacy Policy page
+msgid "By submitting this form you agree to the processing of your personal data."
+msgstr "Нажимая на кнопку, вы соглашаетесь на обработку персональных данных."
+
+#: template-parts/project/details-aside.php:25
+msgid "Availability:"
+msgstr "Доступность:"
+
+#: template-parts/project/details-aside.php:33
+msgid "Category:"
+msgstr "Категория:"
+
+#: template-parts/project/details-aside.php:39
+msgid "Date:"
+msgstr "Дата проведения:"
+
+#: template-parts/project/details-aside.php:45
+msgid "Price:"
+msgstr "Стоимость:"
+
+#: template-parts/project/details-aside.php:64
+msgid "Book now"
+msgstr "Записаться"
+
+#: template-parts/project/more-slider.php:18 template-parts/home/projects-teaser.php:75 template-parts/home/projects-teaser.php:76
+msgid "More projects"
+msgstr "Ещё проекты"
+
+#: template-parts/project/more-slider.php:41 template-parts/project/more-slider.php:42
+msgid "View all"
+msgstr "Смотреть все"

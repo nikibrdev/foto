@@ -35,6 +35,7 @@ require_once SF_DIR . '/inc/cpt/class-cpt-faq.php';
 require_once SF_DIR . '/inc/cmb2/init-cmb2.php';
 require_once SF_DIR . '/inc/cmb2/metaboxes-project.php';
 require_once SF_DIR . '/inc/cmb2/metaboxes-testimonial.php';
+require_once SF_DIR . '/inc/cmb2/metaboxes-page.php';
 
 /**
  * Customizer.

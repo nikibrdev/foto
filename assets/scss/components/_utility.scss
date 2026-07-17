@@ -59,3 +59,40 @@
   display: flex;
   align-items: center;
 }
+
+// Block style variations (inc/blocks/class-block-styles.php) — simplified,
+// static approximations of .btn-main / .btn-secondary for Gutenberg content,
+// since the block editor doesn't render the double-span hover-swap markup.
+.wp-block-button.is-style-sf-btn-main .wp-block-button__link {
+  border-radius: 0;
+  border-top: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.wp-block-button.is-style-sf-btn-secondary .wp-block-button__link {
+  border-radius: 0;
+  border: 1px solid var(--primary-color);
+  padding: 16px 20px;
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+  }
+}
+
+.wp-block-group.is-style-sf-panel {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: var(--grey-color);
+}
